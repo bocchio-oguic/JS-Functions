@@ -1,5 +1,3 @@
-
-
 // Returns the sum of an array
 function simpleArraySum(ar) {
     var sum = 0;
