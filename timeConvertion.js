@@ -1,10 +1,7 @@
 "use strict"
 
 // This function converts a String variable with AM/PM time format, to a String with 24hs format 
-
 // For example: String "10:00:01PM"    -> "22:00:01"
-
-
 
 function timeConversion(time) {
     
@@ -19,24 +16,16 @@ function timeConversion(time) {
 		case "AM":
 			// In case 'AM' only change 12 for 00
 			if(arrayTime[0] == "12"){
-				arrayTime[0] = "00";
-			}
+				arrayTime[0] = "00";}
 			break;
 		case "PM":
 			// In case 'PM' 12 stays equal, and others adds 12
 			if(arrayTime[0] != "12"){
-				arrayTime[0] = String(parseInt(arrayTime[0]) + 12);
-			}
+				arrayTime[0] = String(parseInt(arrayTime[0]) + 12);}
 			break;
 		}
 
 	var result = String(arrayTime[0] + ':' + arrayTime[1] + ':' + arrayTime[2]);
-	// console.log(result);
-
-
-    // NodeJS Output
-	//process.stdout.write(result);
-
 	return(result);
 }
 
