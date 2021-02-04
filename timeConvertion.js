@@ -1,6 +1,6 @@
 "use strict"
 
-// This function converts a variable with AM/PM format, to a 24hs format 
+// This function converts a String variable with AM/PM time format, to a String with 24hs format 
 
 // For example: String "10:00:01PM"    -> "22:00:01"
 
