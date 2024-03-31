@@ -1,7 +1,10 @@
 # JS-Functions
-Repository of atomic JS Functions
 
-This repository is a Javascript collection of done exercises. Just pick some function if you need it.
-Feel free to use it.
+This is a Personal Repository of atomic JS Functions
 
-:)
+It includes a collection of JS functions that I used for different jobs.
+Just pick some function if you need it. Feel free to use it.
+
+[Visit my blog!](http://www.sebabocchio.com)
+
+Seba
